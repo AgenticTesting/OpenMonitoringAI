@@ -1,0 +1,17 @@
+{
+  "name": "convert",
+  "version": "1.0.0",
+  "description": "From *.cor to *.json. Period.",
+  "main": "lr2jm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "typescript": "^6.0.2"
+  }
+}
