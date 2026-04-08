@@ -1,0 +1,21 @@
+[parameter:UserName]
+Format=""
+ParamName="UserName"
+TableLocation="Local"
+Type="Table"
+Table="users.dat"
+ColumnName="Col 1"
+GenerateNewVal="EachIteration"
+OriginalValue=""
+Delimiter=","
+
+[parameter:Password]
+Format=""
+ParamName="Password"
+TableLocation="Local"
+Type="Table"
+Table="users.dat"
+ColumnName="Col 2"
+GenerateNewVal="EachIteration"
+OriginalValue=""
+Delimiter=","
