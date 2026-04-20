@@ -1,0 +1,4 @@
+# jm2epa.py uses only the Python standard library.
+# This file is present so CI caches and pip can no-op cleanly.
+# If you want colored console output, uncomment the line below:
+# colorit>=0.3

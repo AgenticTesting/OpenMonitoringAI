@@ -1,0 +1,49 @@
+{
+  "name": "jm2epa",
+  "version": "0.1.0",
+  "description": "JMeter .jmx to Eggplant Performance .epa converter. Three ports (Python, JavaScript, TypeScript) with byte-for-byte parity.",
+  "main": "jm2epa.js",
+  "bin": {
+    "jm2epa": "jm2epa.js"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "typecheck": "tsc --noEmit --project tsconfig.json",
+    "convert": "node jm2epa.js",
+    "convert:ts": "ts-node --transpile-only jm2epa.ts",
+    "test": "bash tests/parity.sh"
+  },
+  "keywords": [
+    "jmeter",
+    "eggplant",
+    "eggplant-performance",
+    "performance-testing",
+    "load-testing",
+    "converter",
+    "migration"
+  ],
+  "author": "Jonathon.AI <aiagentictesting@gmail.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  },
+  "files": [
+    "jm2epa.py",
+    "jm2epa.js",
+    "jm2epa.ts",
+    "tsconfig.json",
+    "docs/",
+    "tests/",
+    "test_jmx/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md"
+  ]
+}
